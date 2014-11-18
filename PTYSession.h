@@ -54,11 +54,11 @@
 @class PasteContext;
 
 // Timer period when all we have to do is update blinking text/cursor.
-static const float kBlinkTimerIntervalSec = 1.0 / 2.0;
+static const float kBlinkTimerIntervalSec = 1.0 / 4.0;
 // Timer period when receiving lots of data.
-static const float kSlowTimerIntervalSec = 1.0 / 10.0;
+static const float kSlowTimerIntervalSec = 1.0 / 30.0;
 // Timer period for interactive use.
-static const float kFastTimerIntervalSec = 1.0 / 30.0;
+static const float kFastTimerIntervalSec = 1.0 / 60.0;
 // Timer period for background sessions. This changes the tab item's color
 // so it must run often enough for that to be useful.
 // TODO(georgen): There's room for improvement here.
